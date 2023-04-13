@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    width: 1320px;
+    margin: auto;
+    background: url(./back.jpg) no-repeat;
+    position: relative;
+}
+
+iframe {
+  margin-top: 110PX;
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    right: -143px;
+    top: 212px;
+    font-size: 25px;
+}
+
+h1:hover a {
+    color: #000;
+}
