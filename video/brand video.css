@@ -13,20 +13,26 @@ body {
     margin: auto;
     background: url(./back.jpg) no-repeat;
     position: relative;
+    background-size: cover;
 }
 
 iframe {
-  margin-top: 110PX;
+  margin-top: 210PX;
 }
 
-h1 {
+a {
     display: block;
-    position: absolute;
-    right: -143px;
-    top: 212px;
+    position: fixed;
+    right: 150px;
+    bottom: 100px;
     font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #ee4d9b;
+    border-radius:  50%;
+    padding: 10px;
 }
 
-h1:hover a {
-    color: #000;
+a:hover{
+    color: #ee4d9b;
+    background-color: #fff;
 }
